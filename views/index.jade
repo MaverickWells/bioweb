@@ -1,0 +1,51 @@
+extends layout
+
+block content    
+    // Page Header
+    // Set your background image for this header on the line below.
+    header.intro-header(style="background-image: url('images/home-bg.jpg')")
+        .container
+            .row
+                .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+                    .post-heading
+                        h1 Welcome To My First Fullstack JS Web                        
+    // Post Content
+    article
+        .container
+            .row
+                .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+                    p 
+                        | Nama saya Welly
+                    p
+                        | Dari Universitas Atma Jaya Yogyakarta
+                    p
+                        | Jurusan Teknik Informatika
+                    p
+                        | Angkatan 2013
+                    p
+                        | Motivasi saya dalam mengikuti workshop ini adalah saya ingin menambah dan mempertajam skill saya dalam pemrograman dengan bahasa Javascript. 
+                        br 
+                        | Serta mempelajari hal baru dalam dunia web, dan bertemu dengan para expert di dunia web apps.
+    hr
+    // Footer
+    footer
+        .container
+            .row
+                .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+                    ul.list-inline.text-center
+                        li
+                            a(href='#')
+                                img(src= "images/nodejs.png" width='50', height='50')                                
+                        li
+                            a(href='#')
+                                img(src= "images/express.png" width='100', height='50')    
+                        li
+                            a(href='#')
+                                img(src= "images/bootstrap.png" width='50', height='50')
+                        li
+                            a(href='#')
+                                img(src= "images/jquery.png" width='50', height='50')
+                        li
+                            a(href='#')
+                                img(src= "images/fontawesome.png" width='50', height='50')
+                    p.copyright.text-muted Copyright © Wells 2016
